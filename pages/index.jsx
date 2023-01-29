@@ -85,8 +85,6 @@ export default function Home() {
   const fetchImages = async () => {
     setImgsLoaded(true);
 
-    console.log({ clientId: process.env._APP_CLIENT_ID, clientSecret: process.env._APP_CLIENT_SECRET })
-
     const body = { clientId: process.env._APP_CLIENT_ID, clientSecret: process.env._APP_CLIENT_SECRET };
 
     const getToken = await axios.post('/token', body);
