@@ -1,0 +1,47 @@
+:root {
+  --bg-primary: #1B1B23;
+}
+
+html,
+body {
+  max-width: 85vw;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0 auto;
+  color: #FFF
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-size: 24px;
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
