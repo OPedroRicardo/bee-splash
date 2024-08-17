@@ -1,5 +1,15 @@
 :root {
-  --bg-primary: #1B1B23;
+  --bg-primary: #0E0305;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
 }
 
 html,
